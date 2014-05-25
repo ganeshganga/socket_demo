@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>Socket Demo</title>
+  <style type="text/css" media="screen">
+    body {
+      font-size: 14px;
+      font-family: Helvetica, Arial;
+    }
+    
+    .red, #red {
+      background-color: red;
+    }
+	
+    #red, #green {
+      position: fixed;
+      top: 50%;
+      height: 50%;
+      width: 50%;
+    }
+	
+    #red {left: 0%}
+    #green {left: 50%;}
+  
+    .green, #green {
+      background-color: green;
+    }
+
+    table {
+      width: 100%;
+      height: 25%;
+      border-collapse: collapse;
+    }
+    
+    tr {
+      border: none;
+    }
+    
+    td {
+      margin: 0;
+      padding: 0;
+      border: 1px solid black;
+    }
+  </style>
+  <script src="jquery.js"></script>
+  <script src="socket_demo.coffee"></script>
+</head>
+<body>
+  <table>
+    <tr></tr>
+  </table>
+  <div id="red"></div>
+  <div id="green"></div>
+</body>
+</html>
